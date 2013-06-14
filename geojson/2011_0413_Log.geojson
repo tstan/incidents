@@ -1,0 +1,1 @@
+{"type": "FeatureCollection", "features": [{"geometry": {"type": "Point", "coordinates": [-119.336944, 34.418889]}, "type": "Feature", "properties": {"category": "Fire", "incident_id": "CAVNC2011093003", "date": "2011-04-13", "details": "FIRE, WILDLAND", "address": "CASITAS", "event_id": "CALPF11002059", "time": "02:08:00", "type": "FWL", "jrsdtn": ""}, "id": null}]}

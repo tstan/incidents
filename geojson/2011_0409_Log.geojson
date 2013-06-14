@@ -1,0 +1,1 @@
+{"type": "FeatureCollection", "features": [{"geometry": {"type": "Point", "coordinates": [-118.808889, 34.384444]}, "type": "Feature", "properties": {"category": "Fire", "incident_id": "CAVNC2011019804", "date": "2011-04-09", "details": "FIRE, WILDLAND", "address": "TORRY CANYON", "event_id": "CALPF11002057", "time": "05:38:00", "type": "FWL", "jrsdtn": ""}, "id": null}]}

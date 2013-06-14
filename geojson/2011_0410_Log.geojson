@@ -1,0 +1,1 @@
+{"type": "FeatureCollection", "features": [{"geometry": {"type": "Point", "coordinates": [-118.635556, 34.267778]}, "type": "Feature", "properties": {"category": "Fire", "incident_id": "CAVNC2011019985", "date": "2011-04-10", "details": "FIRE, WILDLAND", "address": "WB 118 AT ROCKY PEAK", "event_id": "CALPF11002058", "time": "08:44:00", "type": "FWL", "jrsdtn": ""}, "id": null}]}
