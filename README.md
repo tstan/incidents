@@ -1,4 +1,4 @@
-# CAL FIRE San Luis Obispo Incidents Data
+# CAL FIRE San Luis Obispo Incident Data
 
 ## File structure
 
