@@ -13,9 +13,11 @@ def good_line(line):
     return len(fields) > 9 and fields[0].startswith("CAD") and fields[7] \
         and fields[8] and fields[4]
 
+
 def good_lines(file_path):
     with open(file_path) as open_file:
         return [line.strip() for line in open_file if good_line(line)]
+
 
 def uniq_lines(dir_path):
     dir_path = os.path.join(dir_path, "")
@@ -25,6 +27,7 @@ def uniq_lines(dir_path):
     sorted_lines = sorted(all_lines, key=lam)
     grouped_lines = itertools.groupby(sorted_lines, lam)
     return (max(g) for k, g in grouped_lines)
+
 
 def lines_to_geo(line):
     fields = line.split("|")
@@ -48,13 +51,15 @@ def lines_to_geo(line):
     }
     return geojson.Feature(geometry=point, properties=properties)
 
+
 def group_geo_by_day(points):
     days = {}
     for point in points:
         days.setdefault(point.properties["date"], []).append(point)
     for day, points in days.items():
-        days[day] = geojson.FeatureCollection(points) 
+        days[day] = geojson.FeatureCollection(points)
     return days
+
 
 def days_to_files(days):
     for day, points in days.items():
