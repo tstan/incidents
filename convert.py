@@ -32,9 +32,9 @@ def lines_to_geo(line):
     try:
         jrsdtn = jrsdtns.get(fields[10], "")
     except IndexError:
-        jrsdtn = "Unknown"
+        jrsdtn = ""
     dt = datetime.strptime(fields[4], "%Y%m%d%H%M%S")
-    category, inc_type = types.get(fields[5], ('Unknown', 'Unknown'))
+    category, inc_type = types.get(fields[5], ("", ""))
     properties = {
         "event_id": fields[1],
         "incident_id": fields[2],
