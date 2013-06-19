@@ -1,0 +1,1 @@
+{"type": "FeatureCollection", "features": [{"geometry": {"type": "Point", "coordinates": [-118.951111, 35.563889]}, "type": "Feature", "properties": {"category": "Fire", "incident_id": "CAKRN2009014228", "date": "2009-05-05", "details": "FIRE, WILDLAND", "address": "GRANITE/ROUND MTN RD", "event_id": "CASLU13003986", "time": "16:26:00", "type": "FWL", "jrsdtn": ""}, "id": null}]}
